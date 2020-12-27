@@ -20,24 +20,16 @@ static int topbar             = 1;        /* 0 means bottom bar */
  * yay -Sy ttf-joypixels
  */
 static char *fonts[]          = { "monospace:size=10", "JoyPixels:pixelsize=10:antialias=true:autohint=true"  };
-
-static char normfgcolor[]           = "#F9FAF9";
-static char normbgcolor[]           = "#222B33";
-static char normbordercolor[]       = "#222B33";
-
+static char normbgcolor[]           = "#181e24";
+static char normbordercolor[]       = "#222D32";
+static char normfgcolor[]           = "#b7c5d3";
 static char selfgcolor[]            = "#171D23";
-static char selbgcolor[]            = "#539AFC";
 static char selbordercolor[]        = "#539AFC";
-
-static char titlefgcolor[]          = "#b7c5d3";
-static char titlebgcolor[]          = "#181E24";
-static char titlebordercolor[]      = "#181E24";
-
+static char selbgcolor[]            = "#539AFC";
 static char *colors[][3] = {
-       /*                 fg            bg            border   */
-       [SchemeNorm]   = { normfgcolor,  normbgcolor,  normbordercolor   },
-       [SchemeSel]    = { selfgcolor,   selbgcolor,   selbordercolor    },
-       [SchemeTitle]  = { titlefgcolor, titlebgcolor, titlebordercolor  },
+       /*               fg           bg           border   */
+       [SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
+       [SchemeSel]  = { selfgcolor,  selbgcolor,  selbordercolor  },
 };
 
 typedef struct {
