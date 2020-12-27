@@ -20,12 +20,12 @@ static int topbar             = 1;        /* 0 means bottom bar */
  * yay -Sy ttf-joypixels
  */
 static char *fonts[]          = { "monospace:size=10", "JoyPixels:pixelsize=10:antialias=true:autohint=true"  };
-static char normbgcolor[]           = "#222222";
+static char normbgcolor[]           = "#181e24";
 static char normbordercolor[]       = "#222D32";
-static char normfgcolor[]           = "#bbbbbb";
-static char selfgcolor[]            = "#eeeeee";
+static char normfgcolor[]           = "#b7c5d3";
+static char selfgcolor[]            = "#171D23";
 static char selbordercolor[]        = "#539AFC";
-static char selbgcolor[]            = "#005577";
+static char selbgcolor[]            = "#539AFC";
 static char *colors[][3] = {
        /*               fg           bg           border   */
        [SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
